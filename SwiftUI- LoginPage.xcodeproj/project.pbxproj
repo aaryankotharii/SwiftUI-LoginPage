@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,13 @@
 		5B32559B241F8E740003FAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B32559A241F8E740003FAAC /* Assets.xcassets */; };
 		5B32559E241F8E740003FAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B32559D241F8E740003FAAC /* Preview Assets.xcassets */; };
 		5B3255A1241F8E740003FAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B32559F241F8E740003FAAC /* LaunchScreen.storyboard */; };
+		5B3255A9241F8FED0003FAAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3255A8241F8FED0003FAAC /* GoogleService-Info.plist */; };
+		A7B01F7DFA865B7AC50C3A97 /* Pods_SwiftUI__LoginPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07CE88C71112DF1199B36A21 /* Pods-SwiftUI- LoginPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI- LoginPage.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI- LoginPage/Pods-SwiftUI- LoginPage.release.xcconfig"; sourceTree = "<group>"; };
+		48333D3F3BAF47146AC3E5D6 /* Pods-SwiftUI- LoginPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI- LoginPage.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI- LoginPage/Pods-SwiftUI- LoginPage.debug.xcconfig"; sourceTree = "<group>"; };
 		5B325591241F8E710003FAAC /* SwiftUI- LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI- LoginPage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B325594241F8E710003FAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B325596241F8E710003FAAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		5B32559D241F8E740003FAAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B3255A0241F8E740003FAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3255A2241F8E740003FAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B3255A8241F8FED0003FAAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI__LoginPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B01F7DFA865B7AC50C3A97 /* Pods_SwiftUI__LoginPage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				5B325593241F8E710003FAAC /* SwiftUI- LoginPage */,
 				5B325592241F8E710003FAAC /* Products */,
+				6016E7F5A50FEFB7C857EAED /* Pods */,
+				6F4C21FC6596E7077D046392 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +71,7 @@
 				5B32559A241F8E740003FAAC /* Assets.xcassets */,
 				5B32559F241F8E740003FAAC /* LaunchScreen.storyboard */,
 				5B3255A2241F8E740003FAAC /* Info.plist */,
+				5B3255A8241F8FED0003FAAC /* GoogleService-Info.plist */,
 				5B32559C241F8E740003FAAC /* Preview Content */,
 			);
 			path = "SwiftUI- LoginPage";
@@ -75,6 +85,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6016E7F5A50FEFB7C857EAED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48333D3F3BAF47146AC3E5D6 /* Pods-SwiftUI- LoginPage.debug.xcconfig */,
+				07CE88C71112DF1199B36A21 /* Pods-SwiftUI- LoginPage.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F4C21FC6596E7077D046392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B3255A5241F8E740003FAAC /* Build configuration list for PBXNativeTarget "SwiftUI- LoginPage" */;
 			buildPhases = (
+				C107B279D37ECECEF1F5646D /* [CP] Check Pods Manifest.lock */,
 				5B32558D241F8E710003FAAC /* Sources */,
 				5B32558E241F8E710003FAAC /* Frameworks */,
 				5B32558F241F8E710003FAAC /* Resources */,
+				9DACEBFC53FD9A748132764D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,12 +163,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B3255A1241F8E740003FAAC /* LaunchScreen.storyboard in Resources */,
+				5B3255A9241F8FED0003FAAC /* GoogleService-Info.plist in Resources */,
 				5B32559E241F8E740003FAAC /* Preview Assets.xcassets in Resources */,
 				5B32559B241F8E740003FAAC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DACEBFC53FD9A748132764D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI- LoginPage/Pods-SwiftUI- LoginPage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI- LoginPage/Pods-SwiftUI- LoginPage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI- LoginPage/Pods-SwiftUI- LoginPage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C107B279D37ECECEF1F5646D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI- LoginPage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B32558D241F8E710003FAAC /* Sources */ = {
@@ -282,6 +354,7 @@
 		};
 		5B3255A6241F8E740003FAAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48333D3F3BAF47146AC3E5D6 /* Pods-SwiftUI- LoginPage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +362,7 @@
 				DEVELOPMENT_TEAM = F8CHS6PHQS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI- LoginPage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +376,7 @@
 		};
 		5B3255A7241F8E740003FAAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CE88C71112DF1199B36A21 /* Pods-SwiftUI- LoginPage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +384,7 @@
 				DEVELOPMENT_TEAM = F8CHS6PHQS;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI- LoginPage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
