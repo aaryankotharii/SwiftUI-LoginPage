@@ -1,5 +1,5 @@
 //
-//  AuthView.swift
+//  SignInView.swift
 //  SwiftUI- LoginPage
 //
 //  Created by Aaryan Kothari on 16/03/20.
@@ -8,16 +8,16 @@
 
 import SwiftUI
 
-struct AuthView: View {
+struct SignInView: View {
     var body: some View {
-        NavigationView{
-            SignInView()
+        VStack {
+            Text("Hello, World!")
         }
     }
 }
 
-struct AuthView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthView().environmentObject(sessionStore())
+        SignInView()
     }
 }
