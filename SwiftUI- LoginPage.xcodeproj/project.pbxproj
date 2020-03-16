@@ -14,6 +14,7 @@
 		5B32559E241F8E740003FAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B32559D241F8E740003FAAC /* Preview Assets.xcassets */; };
 		5B3255A1241F8E740003FAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B32559F241F8E740003FAAC /* LaunchScreen.storyboard */; };
 		5B3255A9241F8FED0003FAAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3255A8241F8FED0003FAAC /* GoogleService-Info.plist */; };
+		5B3255AB241F92530003FAAC /* sessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3255AA241F92530003FAAC /* sessionStore.swift */; };
 		A7B01F7DFA865B7AC50C3A97 /* Pods_SwiftUI__LoginPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		5B3255A0241F8E740003FAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B3255A2241F8E740003FAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B3255A8241F8FED0003FAAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B3255AA241F92530003FAAC /* sessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessionStore.swift; sourceTree = "<group>"; };
 		C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI__LoginPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 				5B3255A2241F8E740003FAAC /* Info.plist */,
 				5B3255A8241F8FED0003FAAC /* GoogleService-Info.plist */,
 				5B32559C241F8E740003FAAC /* Preview Content */,
+				5B3255AA241F92530003FAAC /* sessionStore.swift */,
 			);
 			path = "SwiftUI- LoginPage";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				5B325595241F8E710003FAAC /* AppDelegate.swift in Sources */,
 				5B325597241F8E710003FAAC /* SceneDelegate.swift in Sources */,
+				5B3255AB241F92530003FAAC /* sessionStore.swift in Sources */,
 				5B325599241F8E710003FAAC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
