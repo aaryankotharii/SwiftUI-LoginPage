@@ -17,6 +17,7 @@
 		5B3255AB241F92530003FAAC /* sessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3255AA241F92530003FAAC /* sessionStore.swift */; };
 		5B3255AD241F98500003FAAC /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3255AC241F98500003FAAC /* AuthView.swift */; };
 		5B3255AF241F98AA0003FAAC /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3255AE241F98AA0003FAAC /* SignInView.swift */; };
+		5B3255B1241FA1320003FAAC /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3255B0241FA1320003FAAC /* SignUpView.swift */; };
 		A7B01F7DFA865B7AC50C3A97 /* Pods_SwiftUI__LoginPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		5B3255AA241F92530003FAAC /* sessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sessionStore.swift; sourceTree = "<group>"; };
 		5B3255AC241F98500003FAAC /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		5B3255AE241F98AA0003FAAC /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		5B3255B0241FA1320003FAAC /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		C1E7877CA1400BB7920E81EC /* Pods_SwiftUI__LoginPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI__LoginPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				5B3255AA241F92530003FAAC /* sessionStore.swift */,
 				5B3255AC241F98500003FAAC /* AuthView.swift */,
 				5B3255AE241F98AA0003FAAC /* SignInView.swift */,
+				5B3255B0241FA1320003FAAC /* SignUpView.swift */,
 			);
 			path = "SwiftUI- LoginPage";
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				5B3255AF241F98AA0003FAAC /* SignInView.swift in Sources */,
 				5B325595241F8E710003FAAC /* AppDelegate.swift in Sources */,
 				5B3255AD241F98500003FAAC /* AuthView.swift in Sources */,
+				5B3255B1241FA1320003FAAC /* SignUpView.swift in Sources */,
 				5B325597241F8E710003FAAC /* SceneDelegate.swift in Sources */,
 				5B3255AB241F92530003FAAC /* sessionStore.swift in Sources */,
 				5B325599241F8E710003FAAC /* ContentView.swift in Sources */,

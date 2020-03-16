@@ -35,7 +35,7 @@ struct SignInView: View {
                 .font(.system(size: 32, weight: .heavy, design: .default))
             Text("sign in to continue")
                 .font(.system(size: 18, weight: .medium))
-                .foregroundColor(bg2)
+                .foregroundColor(bg1)
             
             VStack(spacing: 18){
                 TextField("Email address", text: $email)
@@ -59,10 +59,21 @@ struct SignInView: View {
                     .cornerRadius(5)
         }
         Spacer()
+            
+            NavigationLink(destination: SignInView()){
+                HStack{
+                    Text("new here?")
+                        .font(.system(size: 14, weight: .light))
+                        .foregroundColor(.primary)
+                    Text("Create an account")
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundColor(bg2)
+                }
+            }
         }
         .padding(.horizontal, 32)
 }
-}
+} 
 
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
