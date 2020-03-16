@@ -48,7 +48,7 @@ struct SignUpView: View {
             .padding(.vertical,64)
             
         Button(action: signUp){
-            Text("Signin")
+            Text("SignUp")
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .frame(height: 50)
                 .foregroundColor(.white)

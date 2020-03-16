@@ -59,12 +59,11 @@ struct SignInView: View {
                     .cornerRadius(5)
         }
         Spacer()
-            
-            NavigationLink(destination: SignInView()){
-                HStack{
-                    Text("new here?")
-                        .font(.system(size: 14, weight: .light))
-                        .foregroundColor(.primary)
+            HStack{
+                Text("new here?")
+                    .font(.system(size: 14, weight: .light))
+                    .foregroundColor(.primary)
+            NavigationLink(destination: SignUpView()){
                     Text("Create an account")
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundColor(bg2)
