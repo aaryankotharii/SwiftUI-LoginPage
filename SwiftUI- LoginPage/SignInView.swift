@@ -41,11 +41,11 @@ struct SignInView: View {
                 TextField("Email address", text: $email)
                     .font(.system(size:14))
                     .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.gray, lineWidth: 1 ))
+                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(bg1, lineWidth: 1 ))
                 SecureField("Password", text: $password)
                     .font(.system(size:14))
                     .padding(12)
-                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(Color.gray, lineWidth: 1 ))
+                    .background(RoundedRectangle(cornerRadius: 5).strokeBorder(bg1, lineWidth: 1 ))
             }
             .padding(.vertical,64)
             
@@ -73,7 +73,7 @@ struct SignInView: View {
         }
         .padding(.horizontal, 32)
 }
-} 
+}
 
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
